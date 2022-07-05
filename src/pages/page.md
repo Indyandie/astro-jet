@@ -1,8 +1,22 @@
 ---
 layout: '../layouts/MdLayout.astro'
-title: 'Another Page'
+title: 'Page'
 ---
 
-# This is another page
+# **Markdown** Page 
 
 Hello there.
+
+## List
+
+- one
+- two
+- three
+
+---
+
+## Codeblock
+
+```js
+let box = ['stuff', 'junk', 327947]
+```

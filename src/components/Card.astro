@@ -28,6 +28,7 @@ const {href, title, body} = Astro.props;
 		display: flex;
 		padding: 0.15rem;
 		background-image: var(--link-gradient);
+    border-width: 4px;
 		background-size: 400%;
 		border-radius: 0.5rem;
 		background-position: 100%;
@@ -41,7 +42,7 @@ const {href, title, body} = Astro.props;
 		padding: 1em 1.3em;
 		border-radius: 0.35rem;
 		color: var(--text-color);
-		background-color: white;
+		background-color: #333;
 		opacity: 0.8;
 	}
 
@@ -65,7 +66,7 @@ const {href, title, body} = Astro.props;
 	}
 
 	.link-card:is(:hover, :focus-within) h2 {
-		color: #4F39FA;
+		color: #d689ff;
 	}
 
 	.link-card:is(:hover, :focus-within) h2 span {
