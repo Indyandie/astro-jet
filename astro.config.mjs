@@ -2,8 +2,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	// publicDir: './public',
-  root: 'build',
-  // outDir: './build',
-  // base: './'
+  site: 'https://indyandie.github.io',
+  base: '/astro-jet'
 });
